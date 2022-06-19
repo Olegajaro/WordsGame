@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		10DF31F1285EC48600A6F51F /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DF31F0285EC48600A6F51F /* Player.swift */; };
+		10DF31F5285EC56F00A6F51F /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DF31F4285EC56F00A6F51F /* GameViewModel.swift */; };
 		10F3EDAF285DFBBD00A08BCB /* WordsGameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F3EDAE285DFBBD00A08BCB /* WordsGameApp.swift */; };
 		10F3EDB1285DFBBD00A08BCB /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F3EDB0285DFBBD00A08BCB /* StartView.swift */; };
 		10F3EDB3285DFBBE00A08BCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10F3EDB2285DFBBE00A08BCB /* Assets.xcassets */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		10DF31F0285EC48600A6F51F /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		10DF31F4285EC56F00A6F51F /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
 		10F3EDAB285DFBBD00A08BCB /* WordsGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WordsGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10F3EDAE285DFBBD00A08BCB /* WordsGameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsGameApp.swift; sourceTree = "<group>"; };
 		10F3EDB0285DFBBD00A08BCB /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
@@ -38,6 +42,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		10DF31F2285EC55000A6F51F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				10DF31F0285EC48600A6F51F /* Player.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		10DF31F3285EC55B00A6F51F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				10DF31F4285EC56F00A6F51F /* GameViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		10F3EDA2285DFBBD00A08BCB = {
 			isa = PBXGroup;
 			children = (
@@ -58,8 +78,9 @@
 			isa = PBXGroup;
 			children = (
 				10F3EDAE285DFBBD00A08BCB /* WordsGameApp.swift */,
+				10DF31F2285EC55000A6F51F /* Model */,
 				10F3EDC5285E08AC00A08BCB /* Views */,
-				10F3EDBC285E052700A08BCB /* Components */,
+				10DF31F3285EC55B00A6F51F /* ViewModel */,
 				10F3EDB2285DFBBE00A08BCB /* Assets.xcassets */,
 				10F3EDB4285DFBBE00A08BCB /* Preview Content */,
 			);
@@ -88,6 +109,7 @@
 			children = (
 				10F3EDB0285DFBBD00A08BCB /* StartView.swift */,
 				10F3EDC3285E08A000A08BCB /* GameView.swift */,
+				10F3EDBC285E052700A08BCB /* Components */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -166,7 +188,9 @@
 				10F3EDC0285E05A600A08BCB /* TitleText.swift in Sources */,
 				10F3EDAF285DFBBD00A08BCB /* WordsGameApp.swift in Sources */,
 				10F3EDC2285E066C00A08BCB /* WordTextField.swift in Sources */,
+				10DF31F1285EC48600A6F51F /* Player.swift in Sources */,
 				10F3EDC4285E08A000A08BCB /* GameView.swift in Sources */,
+				10DF31F5285EC56F00A6F51F /* GameViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
